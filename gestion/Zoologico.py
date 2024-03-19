@@ -9,7 +9,7 @@ class Zoologico:
     
     def agregarZonas (self, zona):
 
-        self.zona.append (zona)
+        self._zonas.append (zona)
 
     def cantidadTotalAnimales (self):
 
