@@ -1,4 +1,4 @@
-from gestion import Zona
+from gestion.zona import *
 
 class Animal ():
 
@@ -12,7 +12,7 @@ class Animal ():
         self._genero = genero
         self._zona = None
 
-        _totalAnimales += 1
+        Animal._totalAnimales += 1
 
     def movimiento (self):
 
